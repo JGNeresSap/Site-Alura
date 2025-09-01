@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     font-family:Inter, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 .Container-inicio{
     position: absolute;
@@ -50,6 +52,12 @@
     color: white;
     border: none;
     border-radius: 8px;
+    transition: 0.3s ease;
+}
+.btn-inicio:hover{
+    background-color:#0050b3;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 .btn-inicio-secundario{
     width: 35%;
@@ -63,9 +71,16 @@
     color: white;
     border: white solid 1px;
     border-radius: 8px;
+    transition: 0.3s ease;
+}
+.btn-inicio-secundario:hover{
+    background-color:transparent;
+    color: rgb(209, 209, 209);
+    border: rgb(209, 209, 209) 1px solid;
+    transition: 0.3s ease;
 }
 .container-aviso{
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 10px;
 }
 .Container-secundario{
@@ -121,14 +136,19 @@
     width: 10%;
     height: 50px;
     padding: 5px;
-    margin: 10px;
     margin-left: 15%;
-    margin-top: 28%;
+    margin-top: 29%;
     font-size: 16px;
     background-color:#167BF7;
     color: white;
     border: none;
     border-radius: 8px;
+    transition: 0.3s ease;
+}
+.btn-terciario:hover{
+    background-color:#0050b3;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 .img-terciario{
     position: absolute;
@@ -136,7 +156,7 @@
     left: 60%;
     transform: translateY(-50%);
     width: 500px;
-    height: 250px;
+    height: 350px;
     border-radius: 10px;
 }
 .Container-quaternario{
@@ -163,4 +183,58 @@
 .Txt-quaternario h2{
     color: #C0C0C0;
     font-size: 20px;
+}
+.img-quaternario{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+.Container-quinario{
+    position: absolute;
+    top: 400%;
+    width: 100%;
+    height: 100%;
+    background-color: #00030C;
+    z-index: 5;
+}
+.Txt-quinario{
+    position: absolute;
+    top: 50%;
+    right:12%;
+    transform: translateY(-50%);
+    width: 75%;
+    text-align: center;
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0px;
+    color: white;
+}
+.Txt-quinario h1{
+    color: white;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+.Txt-quinario h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 2em;
+}
+.span-quinario{
+    color: #C0C0C0;
+    margin: 20px;
+}
+.Txt-quinario a{
+    color: #ececec;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.Txt-quinario a:hover{
+    color: rgb(177, 177, 177);
+    transition: 0.3s ease;
 }
